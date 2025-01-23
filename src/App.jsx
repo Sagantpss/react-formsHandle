@@ -8,6 +8,7 @@ import { LoginForm } from './components/hooks/useState/LoginForm'
 import { ContactForm } from './components/hooks/useState/ContactForm'
 import { EffectChanllenge } from './components/hooks/useState/UseEffect/EffectChallenge'
 import { CleanUp } from './components/hooks/useState/UseEffect/CleanUp'
+import { HowNotToFetchApi } from './components/hooks/useState/UseEffect/HowNotToFetchApi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
         <ContactForm />
         <EffectChanllenge />
         <CleanUp />
+        <HowNotToFetchApi />
         </div>
         
         <p>
