@@ -6,6 +6,8 @@ import CounterChallenge from './components/hooks/useState/Challenge'
 import { RegistrationFormReact } from './components/hooks/useState/RegistrationReact'
 import { LoginForm } from './components/hooks/useState/LoginForm'
 import { ContactForm } from './components/hooks/useState/ContactForm'
+import { EffectChanllenge } from './components/hooks/useState/UseEffect/EffectChallenge'
+import { CleanUp } from './components/hooks/useState/UseEffect/CleanUp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +32,8 @@ function App() {
         <RegistrationFormReact />
         <LoginForm />
         <ContactForm />
+        <EffectChanllenge />
+        <CleanUp />
         </div>
         
         <p>
